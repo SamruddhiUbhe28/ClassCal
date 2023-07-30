@@ -8,8 +8,10 @@ result =0
 
 choice=int(input('''Enter your choice:
 	1.Add
-	2.Subtract''')
+	2.Subtract'''))
 if choice==1:
-	result=add(num1,num2)
+	result=addition(num1,num2)
+	print("Result is:",result)
 elif choice==2:
-	result=sub(num1,num2)
+	result=subtraction(num1,num2)
+	print("Result is:",result)
